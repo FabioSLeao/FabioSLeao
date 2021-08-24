@@ -1,4 +1,8 @@
-### Hi there 👋
+<h1 align="center">Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Electronic+Engeneering+Student;C%2FC%2B%2B%20Dev;Cybersecurity%20%7C%20Pentest%20%7C%20CTF%20Player&center=true&width=500&height=50"></a>
+</p>
+
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -7,11 +11,10 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-<p align="center">centered kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p
 ---
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioSLeao&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
----
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FabioSLeao)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=FabioSLeao)](LINK_GIT)
+
+[![Top Langs](https://raw.githubusercontent.com/FabioSLeao/FabioSLeao/main/teste)](https://github.com/anuraghazra/github-readme-stats)
