@@ -5,81 +5,126 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fe428e;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; 
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
-    }
-    
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #f8d847;
-      display: block;
-    }
-    
-    .rank-circle-rim {
-      stroke: #fe428e;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #fe428e;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 127.54552344654115;
-      }
-    }
-  
-  
+         <style scoped>
 
-          
-    /* Animations */
-    @keyframes scaleInAnimation {
-      from {
-        transform: translate(-5px, 5px) scale(0);
-      }
-      to {
-        transform: translate(-5px, 5px) scale(1);
-      }
+    .thm_margin {
+      margin: 5px;
     }
-    @keyframes fadeInAnimation {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
+
+    #thm_badge {
+      width: 210px;
+      display: inline-table;
+      -webkit-touch-callout: none;
+        -webkit-user-select: none;
+         -khtml-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
     }
-  
-          
-        </style>
+
+    #thm_badge:hover {
+      cursor: pointer;
+    }
+
+    .thm_avatar {
+      display: block;
+      width: 50px;
+      height: 50px;
+      float: left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 50%;
+      box-sizing: content-box; /* Needed for border to stop changing image width*/
+      border: 3px solid #88cc14;
+      background-color: #343c42;
+      box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
+      box-shadow: 0 0px 3px 0px #303030;
+    }
+
+    @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+    }
+
+    .thm_font {
+        font-family: "Roboto", monospace;
+    }
+
+    .thm_nickname {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        text-shadow: #000 0 0 6px;
+    }
+
+    .thm_stat {
+      color: #fff;
+      opacity: 0.5;
+      font-size: 14px;
+    }
+
+    .thm_icon {
+      opacity: 0.85;
+      height: 16px;
+    }
+
+    @keyframes flicker {
+    	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    		opacity: .99;
+    		text-shadow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0 $outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+    	}
+    	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    		opacity: 0.4;
+    		text-shadow: none;
+    	}
+    }
+
+    .thm_rank {
+        color: #ffffff;
+        font-size: 11px;
+    }
+
+    .thm_line {
+        line-height: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .thm_link {
+        color: #fff;
+        font-size: 0.6em;
+        text-decoration: none;
+        animation: flicker 6s infinite;
+    }
+
+    .thm_link:hover {
+        color: #fff;
+        font-size: 0.6em;
+        text-decoration: underline;
+    }
+
+    .thm_link:visited {
+        color: #fff;
+    }
+
+    .thm_mr {
+      margin-right: 8px;
+    }
+
+    .thm_for_img {
+      color: #fff;
+      opacity: 0.5;
+      font-size: 14px;
+      position: relative;
+      top: -3px;
+      margin-bottom: 5px;
+    }
+
+  </style>
 
         
 
