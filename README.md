@@ -17,4 +17,4 @@
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=FabioSLeao)](LINK_GIT)
 
-[![Top Langs](https://raw.githubusercontent.com/FabioSLeao/FabioSLeao/main/teste)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://raw.githubusercontent.com/FabioSLeao/FabioSLeao/main/teste.svg)](https://github.com/anuraghazra/github-readme-stats)
