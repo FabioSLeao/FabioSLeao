@@ -3,12 +3,12 @@
 <style>
           .header {
             font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: white;
+            fill: #FFFFFF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
            }
            .title {
             font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: white;
+            fill: #FFFFFF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
 </style>
