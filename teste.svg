@@ -8,7 +8,7 @@
 <circle cx="60" cy="60" r="42" stroke = "black"  stroke-width="1" fill="#FFFFFF" stroke-opacity="0.3" />
   <defs>
          <clipPath id="myCircle">
-                <circle cx="60" cy="60" r="37" stroke = "black"  stroke-width="1" fill="#89c916" />
+                <circle cx="60" cy="60" r="37" stroke = "black"  stroke-width="1" fill=#89c916 />
    			</clipPath>
   </defs>
   <image width="85" height="110" x ="16" y = "5" xlink:href="https://tryhackme-images.s3.amazonaws.com/user-avatars/49588873d9aa006e44541146f6f9d974.png" clip-path="url(#myCircle)" />
