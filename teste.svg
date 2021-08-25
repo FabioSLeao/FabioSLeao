@@ -1,6 +1,6 @@
 <svg
         width="405"
-        height="100"
+        height="130"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -30,6 +30,18 @@
             animation-delay: 600ms;
     
           }
+          .door {
+      		opacity: 0;
+      		animation: fadeInAnimation 0.3s ease-in-out forwards;
+            animation-delay: 750ms;
+    
+          }
+          .award {
+      		opacity: 0;
+      		animation: fadeInAnimation 0.3s ease-in-out forwards;
+            animation-delay: 800ms;
+    
+          }
           
           
           @keyframes fadeInAnimation {
@@ -48,7 +60,7 @@
           rx="4.5"
           ry="4.5"
           height="100%"
-          stroke="#e4e2e2"
+          stroke="#88cc14"
           width="100%"
           fill="#141321"
           stroke-opacity="1"
@@ -90,12 +102,12 @@
         <g transform="translate(0, 0)">
       <text
         x="165"
-        y="43"
+        y="78"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 600ms"
         data-testid="stats"
-      >200432</text>
+      >#200432</text>
     </g>
       </g>
       <g
@@ -105,7 +117,7 @@
         <g transform="translate(0, 0)">
       <text
         x="165"
-        y="30"
+        y="65"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 600ms"
@@ -121,7 +133,7 @@
         <g transform="translate(0, 0)">
       <text
         x="230"
-        y="43"
+        y="78"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 750ms"
@@ -136,7 +148,7 @@
         <g transform="translate(0, 0)">
       <text
         x="230"
-        y="30"
+        y="65"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 750ms"
@@ -152,7 +164,7 @@
         <g transform="translate(0, 0)">
       <text
         x="290"
-        y="43"
+        y="78"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 900ms"
@@ -167,7 +179,7 @@
         <g transform="translate(0, 0)">
       <text
         x="290"
-        y="30"
+        y="65"
         text-anchor = "middle"
         class="stats"
         style="animation-delay: 900ms"
@@ -175,6 +187,17 @@
       >BADGES</text>
     </g>
       </g>
+
+<svg xmlns="http://www.w3.org/2000/svg" x="175" y="55" width="30" height="30" fill="#FFFFFF" class="trophy" viewBox="0 0 16 16">
+  <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x= "240" y="55" width="30" height="30" fill="#FFFFFF" class="door" viewBox="0 0 16 16">
+  <path d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2h.5a.5.5 0 0 1 .5.5V15h-1V2zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="300" y ="55" width="30" height="30" fill="#FFFFFF" class="award" viewBox="0 0 16 16">
+  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+</svg>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
