@@ -1,99 +1,53 @@
-   <svg
-        width="495"
-        height="195"
-        viewBox="0 0 495 195"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <style>
+<svg width="420" height="200">
+
+<style>
           .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fe428e;
+            font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: white;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+           }
+           .title {
+            font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: white;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
-          
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; 
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
-    }
-    
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #f8d847;
-      display: block;
-    }
-    
-    .rank-circle-rim {
-      stroke: #fe428e;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #fe428e;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 127.54552344654115;
-      }
-    }
-  
-  
+</style>
+<rect x="50" y="20" rx="7" ry="7" width="250" height="80" style="fill:#343c42
+;stroke:black;stroke-width:2;stroke-opacity:0.5" />
 
-          
-    /* Animations */
-    @keyframes scaleInAnimation {
-      from {
-        transform: translate(-5px, 5px) scale(0);
-      }
-      to {
-        transform: translate(-5px, 5px) scale(1);
-      }
-    }
-    @keyframes fadeInAnimation {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-  
-          
-        </style>
-
-        
-
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="494"
-          fill="#141321"
-          stroke-opacity="1"
-        />
-
-</svg>
-    
+<circle cx="60" cy="60" r="42" stroke = "black"  stroke-width="1" fill=#89c916 stroke-opacity="0.3" />
+  <defs>
+         <clipPath id="myCircle">
+                <circle cx="60" cy="60" r="37" stroke = "black"  stroke-width="1" fill=#89c916 opacity = 1
+ />
+   			</clipPath>
+  </defs>
+  <image width="85" height="110" x ="16" y = "5" xlink:href="https://tryhackme-images.s3.amazonaws.com/user-avatars/49588873d9aa006e44541146f6f9d974.png" clip-path="url(#myCircle)" />
+  <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="87"
+        y="5"
+        class="header"
+        data-testid="header"
+      >Default.z</text>
+    </g>
+      </g>
+     <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="155"
+        y="5"
+        class="title"
+        data-testid="title"
+      >[0x8][HACKER]</text>
+    </g>
+      </g>
+  Sorry, your browser does not support inline SVG.  
+</svg> 
