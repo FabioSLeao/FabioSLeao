@@ -4,6 +4,27 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
+      	<style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #FFFFFF;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          .title {
+            font: 200 14px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #FFFFFF;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          
+          @keyframes fadeInAnimation {
+      		from {
+       		 opacity: 0;
+     			 }
+     		 to {
+     		   opacity: 1;
+      			}
+   			 }
+         </style>
 
         <rect
           x="0"
@@ -16,7 +37,35 @@
           fill="#141321"
           stroke-opacity="1"
         />
-
+	<g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="220"
+        y="-10"
+        text-anchor = "middle"
+        class="header"
+        data-testid="header"
+      >Default.z</text>
+    </g>
+      </g>
+     <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="220"
+        y="6"
+        text-anchor = "middle"
+        class="title"
+        style="animation-delay: 450ms"
+        data-testid="title"
+      >[0x08][H4CK3R]</text>
+    </g>
+      </g>
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
