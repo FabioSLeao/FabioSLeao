@@ -5,7 +5,7 @@
 <rect x="50" y="20" rx="7" ry="7" width="250" height="80" style="fill:#343c42
 ;stroke:black;stroke-width:2;stroke-opacity:0.5" />
 
-<circle cx="60" cy="60" r="42" stroke = "black"  stroke-width="1" fill="#89c916" stroke-opacity="0.3" />
+<circle cx="60" cy="60" r="42" stroke = "black"  stroke-width="1" fill="black" stroke-opacity="0.3" />
   <defs>
          <clipPath id="myCircle">
                 <circle cx="60" cy="60" r="37" stroke = "black"  stroke-width="1" fill=#89c916 opacity = 1
