@@ -11,10 +11,20 @@
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           .title {
-            font: 200 14px 'Segoe UI', Ubuntu, Sans-Serif;
+      		opacity: 0;
+            font: 300 13px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: #FFFFFF;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
+      		animation: fadeInAnimation 0.3s ease-in-out forwards;
+    
           }
+          .stats {
+      		opacity: 0;
+            font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #FFFFFF;
+      		animation: fadeInAnimation 0.3s ease-in-out forwards;
+    
+          }
+          
           
           @keyframes fadeInAnimation {
       		from {
@@ -64,6 +74,54 @@
         style="animation-delay: 450ms"
         data-testid="title"
       >[0x08][H4CK3R]</text>
+    </g>
+      </g>
+     
+     <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="160"
+        y="36"
+        text-anchor = "middle"
+        class="stats"
+        style="animation-delay: 600ms"
+        data-testid="stats"
+      >200432</text>
+    </g>
+      </g>
+      
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="220"
+        y="36"
+        text-anchor = "middle"
+        class="stats"
+        style="animation-delay: 750ms"
+        data-testid="stats"
+      >200</text>
+    </g>
+      </g>
+      
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="280"
+        y="36"
+        text-anchor = "middle"
+        class="stats"
+        style="animation-delay: 900ms"
+        data-testid="stats"
+      >20</text>
     </g>
       </g>
 
