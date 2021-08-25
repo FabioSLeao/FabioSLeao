@@ -5,15 +5,10 @@
 
 - 🔭 I’m currently working on FITec as Software/Hardware engineer intern
 - 🌱 I’m currently learning Cybersecurity, pentest and clean code on C/C++.
-- 📫 How to reach me: <a href="https://www.linkedin.com/in/f-leao/" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="fabio.leao@ufpe.br" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=whitee"></a>
+- 📫 How to reach me: <a href="https://www.linkedin.com/in/f-leao/" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="fabio.leao@ufpe.br" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 ---
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FabioSLeao&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 ---
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FabioSLeao&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=FabioSLeao)](LINK_GIT)
-
-[![Top Langs](https://raw.githubusercontent.com/FabioSLeao/FabioSLeao/main/teste.svg?token=AN5MDKIDAMC427OQPDKEAJ3BEXG36)](https://github.com/anuraghazra/github-readme-stats)
-
