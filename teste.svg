@@ -1,17 +1,5 @@
 <svg width="420" height="200">
 
-<style>
-          .header {
-            font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: white;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-           }
-           .title {
-            font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: white;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-</style>
 <rect x="50" y="20" rx="7" ry="7" width="250" height="80" style="fill:#343c42
 ;stroke:black;stroke-width:2;stroke-opacity:0.5" />
 
