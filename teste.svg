@@ -1,5 +1,5 @@
 
-<svg width="420" height="200" fill="none">
+<svg width="420" height="200" xmlns="http://www.w3.org/2000/svg">
 
 <rect x="50" y="20" rx="7" ry="7" width="250" height="80" style="fill:#343c42
 ;stroke:black;stroke-width:2;stroke-opacity:0.5" />
@@ -10,5 +10,5 @@
                 <circle cx="60" cy="60" r="37" stroke = "black"  stroke-width="1" fill= '#89c916' />
    			</clipPath>
   </defs>
-  <image width="85" height="110" x ="16" y = "5" href="https://tryhackme-images.s3.amazonaws.com/user-avatars/49588873d9aa006e44541146f6f9d974.png" clip-path="url(#myCircle)" />
+  <image width="85" height="110" x ="16" y = "5" xlink:href="https://tryhackme-images.s3.amazonaws.com/user-avatars/49588873d9aa006e44541146f6f9d974.png" clip-path="url(#myCircle)" />
 </svg> 
