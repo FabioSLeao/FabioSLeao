@@ -23,4 +23,4 @@
 <img width = "458px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FabioSLeao&layout=compact&theme=dracula&hide=jupyter notebook"/>
 
 ---
-[![CARD](https://arcane-spire-64639.herokuapp.com/card?id=319961)](https://github.com/anuraghazra/github-readme-stats)
+[![CARD](https://github.com/FabioSLeao/tryhackme-card)](https://github.com/anuraghazra/github-readme-stats)
