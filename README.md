@@ -1,6 +1,6 @@
 <h1 align="center">Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Undergraduated+Electronic+Engineering;C%2FC%2B%2B%20Dev;Cybersecurity%20%7C%20Pentest%20%7C%20CTF%20Player&center=true&width=500&height=50"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Undergraduate+Electronic+Engineering;C%2FC%2B%2B%20Dev;Cybersecurity%20%7C%20Pentest%20%7C%20CTF%20Player&center=true&width=500&height=50"></a>
 </p>
 <h2>I'm Fábio</h2>
 
