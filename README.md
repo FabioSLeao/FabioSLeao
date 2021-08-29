@@ -23,4 +23,4 @@
 <img width = "458px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FabioSLeao&layout=compact&theme=dracula&hide=jupyter notebook"/>
 
 ---
-[![CARD](tryhackme-card.herokuapp.com/card?id=319961)](https://github.com/FabioSLeao/tryhackme-card)
+[![CARD](http://tryhackme-card.herokuapp.com/card?id=319961)](https://github.com/FabioSLeao/tryhackme-card)
