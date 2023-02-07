@@ -15,12 +15,9 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Git](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FabioSLeao&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-<img width = "458px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FabioSLeao&layout=compact&theme=dracula&hide=jupyter notebook"/>
-
----
-[![CARD](http://tryhackme-card.herokuapp.com/card?id=319961)](https://github.com/FabioSLeao/tryhackme-card)
