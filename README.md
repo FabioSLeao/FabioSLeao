@@ -4,8 +4,7 @@
 </p>
 <h2>I'm Fábio</h2>
 
-- 🔭 I’m currently working at FITec as Software/Hardware engineer intern
-- 🌱 I’m currently learning Cybersecurity, pentest and clean code on C/C++.
+- 🔭 I’m currently working at FITec as Software/Hardware engineer Junior.
 - 💬 Ask me about cryptography, games, drawing, philosophy, physics and hacking.
 
 #### 📫 How to reach me:
